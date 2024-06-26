@@ -28,6 +28,18 @@ def decrypt(text, key):
 
 
 # Example Usage:
+
+## Test cases for abc
+plaintext = "abc"
+encryption_key = 1
+
+encrypted_text = encrypt(plaintext, encryption_key)
+print(f"Encrypted Text: {encrypted_text}")
+
+decrypted_text = decrypt(encrypted_text, encryption_key)
+print(f"Decrypted Text: {decrypted_text}") 
+
+## Test cases for hello
 plaintext = "hello"
 encryption_key = 3
 
@@ -38,7 +50,7 @@ decrypted_text = decrypt(encrypted_text, encryption_key)
 print(f"Decrypted Text: {decrypted_text}") 
 
 
-
+## Test cases for long text
 plaintext = "This is a long text to test encryption with a large number of characters."
 encryption_key = 7
 
